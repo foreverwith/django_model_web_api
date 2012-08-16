@@ -1,4 +1,4 @@
-django_model_web_api
+django-model-web-api
 ====================
 
 Django Model Web Api
