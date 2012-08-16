@@ -2,7 +2,7 @@ from django_webtest import WebTest
 from django.conf import settings
 from django.core.urlresolvers import reverse
 from django_model_web_api.handler import WebApiHandler
-from web_api.client import WebApiClient
+from django_model_web_api.client import WebApiClient
 from django.utils import simplejson
 import random
 

@@ -5,5 +5,5 @@ else:
     from django.conf.urls.defaults import patterns, include, url
 
 urlpatterns = patterns('',
-    url(r'^filter/(?P<app_label>[\d\w_]+)/(?P<model_name>[\d\w_]+)/', 'web_api.views.filter', name='web_api_handler_filter_url'),
+    url(r'^filter/(?P<app_label>[\d\w_]+)/(?P<model_name>[\d\w_]+)/', 'django_model_web_api.views.filter', name='web_api_handler_filter_url'),
 )
